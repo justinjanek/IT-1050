@@ -7,6 +7,11 @@ namespace Section2Practice
         static void Main(string[] args)
         {
         
+            // Declare variable
+            //      Person john;
+            // Then instatiate the object (with new)
+            //      john = new Person;
+
             Person justin = new Person();
             Person nick = new Person();
             State ohio = new State();
@@ -35,6 +40,12 @@ namespace Section2Practice
             nick.stateYourNameAgeAndState();
 
             System.Console.ReadKey();
+
+
+
+
+
+
 
 
         }
