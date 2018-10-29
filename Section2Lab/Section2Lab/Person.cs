@@ -9,7 +9,7 @@ namespace Section2Lab
         public Person Spouse;
 
         public static double SumOfAllAges = 0;
-        public static double AverageAge = SumOfAllAges / 4;
+        public static double AverageAge = 0;
 
         public void GatherInfoAboutUser(string name)
         {
@@ -27,7 +27,6 @@ namespace Section2Lab
 
             SumOfAllAges += this.Age;
             SumOfAllAges += this.Spouse.Age;
-
         }
 
         public string GetFullName()
@@ -42,7 +41,7 @@ namespace Section2Lab
 
         public static void PrintAverageAge()
         {
-            System.Console.WriteLine("Average age = " Person.AverageAge);
+            System.Console.WriteLine("Average age = " + Person.SumOfAllAges  / 4);
         }
     }
 }
