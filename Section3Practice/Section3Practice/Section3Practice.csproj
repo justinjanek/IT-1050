@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="..\..\..\..\..\Desktop\Test.cs" />
+    <Compile Remove="Question.cs" />
+    <Compile Remove="SecurityPolicy.cs" />
   </ItemGroup>
 </Project>
