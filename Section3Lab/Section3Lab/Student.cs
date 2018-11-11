@@ -3,9 +3,19 @@ namespace Section3Lab
 {
     public class Student
     {
+        private int Grade;
+
+        public int GetGrade()
+        {
+            return this.Grade;
+        }
+
+        public void SetGrade(int grade)
+        {
+            this.Grade = grade;
+        }
 
         public string Name { get; set; }
-        public int Grade { get; set; }
         public Instructor Teacher { get; set; }
 
         public Student(string Name, Instructor Teacher)
@@ -15,17 +25,11 @@ namespace Section3Lab
             this.Grade = 0;
         }
 
-        public void SetGrade(int Grade)
-        {
-            this.Grade = Grade;
-        }
-
         public void PrintStudentInfo()
         {
             Console.WriteLine("Student: " + this.Name);
-            Console.WriteLine("Instructor: " + this.Teacher.Name);
-            Console.WriteLine("Course: " + this.Teacher.CourseName);
-            Console.WriteLine("Grade: " + this.Grade + "\n");
+            Console.WriteLine("Grade: " + this.Grade);
+            Teacher.PrintInstructorInfo();
         }
     }
 }

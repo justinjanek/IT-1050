@@ -25,6 +25,8 @@ namespace Section3Lab
             Melissa.PrintStudentInfo();
             Matt.PrintStudentInfo();
 
+            Console.ReadKey();
+
         }
     }
 }

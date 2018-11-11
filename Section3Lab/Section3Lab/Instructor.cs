@@ -13,14 +13,16 @@ namespace Section3Lab
             this.CourseName = CourseName;
         }
 
-        public void SetStudentGrade(Student NameOfStudent, int Grade)
+        public void SetStudentGrade(Student Name, int Grade)
         {
-            NameOfStudent.Grade = Grade;
+            Name.SetGrade(Grade);
         }
 
         public void PrintInstructorInfo()
         {
-            Console.WriteLine(this.Name + this.CourseName);
+            Console.WriteLine("Instructor: " + this.Name);
+            Console.WriteLine("Course Name: " + this.CourseName);
+            Console.WriteLine();
         }
     }
 }
