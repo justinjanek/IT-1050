@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{09453C88-5008-48A1-962A-1589350361A1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Section4Lab/Program.cs">
+    <Files>
+      <File FileName="Section4Lab/Program.cs" Line="3" Column="2" />
+      <File FileName="Section4Lab/Purchase.cs" Line="16" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Section4Lab PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/justinjanek/Documents/GitHub/IT-1050/Section4Lab/Section4Lab/Program.cs" relfile="Section4Lab/Program.cs" line="72" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
