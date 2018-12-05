@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{09453C88-5008-48A1-962A-1589350361A1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Section4Lab/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Section4Lab/Purchase.cs">
     <Files>
-      <File FileName="Section4Lab/Program.cs" Line="3" Column="2" />
-      <File FileName="Section4Lab/Purchase.cs" Line="16" Column="13" />
+      <File FileName="Section4Lab/Program.cs" Line="8" Column="1" />
+      <File FileName="Section4Lab/Purchase.cs" Line="77" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
