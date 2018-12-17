@@ -8,7 +8,7 @@ namespace Final
         {
             Elevator elevator1 = new Elevator(2, 400);
             elevator1.AddOccupant(new Passenger("A1", 180), 0);
-            elevator1.AddOccupant(new Passenger("A1", 220), 1);
+            elevator1.AddOccupant(new Passenger("A2", 220), 1);
 
             bool elevator1IsOverMaxCapacity = elevator1.IsOverMaxCapacity();
 

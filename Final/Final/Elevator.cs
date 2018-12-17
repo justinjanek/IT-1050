@@ -8,13 +8,13 @@ namespace Final
 
         public Elevator(int maxOccupants, double maxWeight)
         {
-            this.Occupants = new Passenger[maxOccupants];
+            Occupants = new Passenger[maxOccupants];
             this.MaxWeight = maxWeight;
         }
 
         public void AddOccupant(Passenger passenger, int index)
         {
-            this.Occupants[index] = new Passenger("",index);
+            this.Occupants[index] = passenger;
         }
 
         public double GetCurrentWeight()
