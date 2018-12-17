@@ -16,6 +16,11 @@ namespace Section5Lab
         {
             int answer = int.Parse(AskForString(question));
 
+            if (answer >= Board.BOARDSIZE)
+            {
+               AskForInt("Please enter a number between 0 to 7");
+            }
+
             return answer;
         }
     }
